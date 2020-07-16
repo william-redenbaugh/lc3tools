@@ -20,10 +20,7 @@ std::string lc3::utils::udecToBin(uint32_t value, uint32_t num_bits)
     }
     bits[num_bits] = 0;
 
-    std::string ret(bits);
-    delete[] bits;
-
-    return ret;
+    return std::string(bits);
 }
 
 uint32_t lc3::utils::sextTo32(uint32_t value, uint32_t num_bits)

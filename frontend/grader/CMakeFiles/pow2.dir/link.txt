@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -fPIC  -rdynamic CMakeFiles/pow2.dir/labs/pow2.cpp.o ../CMakeFiles/frontend_common.dir/common/common.cpp.o ../CMakeFiles/frontend_common.dir/common/console_inputter.cpp.o ../CMakeFiles/frontend_common.dir/common/console_printer.cpp.o CMakeFiles/grader_common.dir/framework.cpp.o  -o ../../bin/pow2  ../../lib/liblc3core.a -lpthread 

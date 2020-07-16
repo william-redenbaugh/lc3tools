@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -fPIC  -rdynamic CMakeFiles/simulator.dir/sim_main.cpp.o ../CMakeFiles/frontend_common.dir/common/common.cpp.o ../CMakeFiles/frontend_common.dir/common/console_inputter.cpp.o ../CMakeFiles/frontend_common.dir/common/console_printer.cpp.o  -o ../../bin/simulator  ../../lib/liblc3core.a -lpthread 
